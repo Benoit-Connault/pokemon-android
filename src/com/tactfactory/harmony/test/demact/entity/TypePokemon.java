@@ -44,5 +44,5 @@ public class TypePokemon {
 
     @OneToMany
     @Column()
-    private ArrayList<Element> typePokemon;
+    private ArrayList<Element> elements;
 }
