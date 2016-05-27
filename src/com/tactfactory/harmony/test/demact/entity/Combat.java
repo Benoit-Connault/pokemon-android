@@ -20,11 +20,11 @@ public class Combat {
     private int id;
 
     @OneToOne
-    @Column()
+    @Column(name = "dresseur1")
     private Dresseur dresseur1;
 
     @OneToOne
-    @Column()
+    @Column(name = "dresseur2")
     private Dresseur dresseur2;
     
     @Column(type = Type.INTEGER)
