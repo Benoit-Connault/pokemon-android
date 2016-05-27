@@ -8,6 +8,7 @@ import com.tactfactory.harmony.annotation.GeneratedValue.Strategy;
 import com.tactfactory.harmony.annotation.Id;
 import com.tactfactory.harmony.annotation.OneToOne;
 
+@Rest
 @Entity
 public class Pokemon {
     @Id

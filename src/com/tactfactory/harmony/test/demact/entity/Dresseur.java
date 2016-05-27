@@ -7,6 +7,7 @@ import com.tactfactory.harmony.annotation.Id;
 import com.tactfactory.harmony.annotation.Column.Type;
 import com.tactfactory.harmony.annotation.GeneratedValue.Strategy;
 
+@Rest
 @Entity
 public class Dresseur {
     @Id

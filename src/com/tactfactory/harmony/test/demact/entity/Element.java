@@ -10,6 +10,7 @@ import com.tactfactory.harmony.annotation.OneToMany;
 import com.tactfactory.harmony.annotation.Column.Type;
 import com.tactfactory.harmony.annotation.GeneratedValue.Strategy;
 
+@Rest
 @Entity
 public class Element {
     @Id

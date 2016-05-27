@@ -10,6 +10,8 @@ import com.tactfactory.harmony.annotation.Column.Type;
 import com.tactfactory.harmony.annotation.GeneratedValue.Strategy;
 import com.tactfactory.harmony.annotation.OneToOne;
 
+
+@Rest
 @Entity
 public class Combat {
     @Id
