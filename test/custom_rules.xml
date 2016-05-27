@@ -1,0 +1,4 @@
+<project name="Pokemon-test-custom" default="help">
+    <property name="tested.manifest.package" value="com.tactfactory.harmony.test.demact" />
+    <import file="build.rules.xml"/>
+</project>
