@@ -20,7 +20,7 @@ public class Pokemon {
     private String nom;
 
     @Column(type = Type.INTEGER)
-    private String niveau;
+    private int niveau;
 
     @OneToOne
     @Column()
