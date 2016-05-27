@@ -43,7 +43,7 @@ public class Pokemon {
     private Attaque attaque4;
 
     @OneToOne
-    @Column(type = Type.STRING)
+    @Column()
     private TypePokemon typePokemon;
 
     @Column(type = Type.INTEGER)
